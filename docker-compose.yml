@@ -2,18 +2,18 @@ services:
   app1:
     build: .
     environment:
-      - APP_NAME=app1
+      - APP_NAME=App1
     ports:
       - "3001:3000"
   app2: 
     build: .
     environment:
-      - APP_NAME=app2
+      - APP_NAME=App2
     ports:
-      - "3002:3000
+      - "3002:3000"
   app3:
     build: .
     environment:
-      - APPNAME=app3
+      - APPNAME=App3
     ports:
       - "3003:3000"      
